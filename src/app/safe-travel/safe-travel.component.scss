@@ -30,15 +30,21 @@ ion-content {
     display: inline-block;
     cursor: pointer;
     padding-left: 18px;
+    position: relative;
     img {
         height: 50px;
         width: 65px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
     }
     p {
         color: #434A5E;
-        font-size: 6vw;
-        font-weight: 600;
-        line-height: 3;
+    font-size: 6vw;
+    font-weight: 600;
+    line-height: 3.4;
     }
 }
 

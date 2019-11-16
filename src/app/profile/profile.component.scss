@@ -28,8 +28,7 @@ ion-content {
 .rawards_point {
     padding: 0px 15px;
     ion-img {
-        height: 80px;
-        width: 80px;
+        width: 26vw;
         float: left;
     }
     span {
@@ -45,7 +44,7 @@ ion-content {
     .card_header {
         p {
             color: #434A5E;
-            font-size: 15px;
+            font-size: 6vw;
             font-weight: 600;
             padding: 15px;
             line-height: 20px;
@@ -57,12 +56,12 @@ ion-content {
         .profile_detail {
             box-shadow: 1px 2px 7px #95989A;
             border-radius: 5px;
-            padding: 14px 10px 18px 10px;
+            padding: 18px 10px 24px 10px;
             margin-bottom: 15px;
             p {
                 color: #7F8DAB;
                 font-size: 5vw;
-                line-height: 30px;
+                line-height: 2.3;
             }
             h6 {
                 font-size: 6vw;

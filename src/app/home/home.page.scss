@@ -100,14 +100,14 @@ $blue  : #584BDD;
         .menu_list {
             margin-top    : 15px;
             font-weight   : 500;
-            font-size     : 14px;
-           outline: none;
+            font-size     : 5vw;
+            outline: none;
             cursor        : pointer;
 
             ion-img {
-                height    : 14px;
-                width     : 14px;
-                margin-top: 1px;
+                height    : 15px;
+                width     : 15px;
+                margin-top: 4px;
             }
         }
     }
@@ -115,6 +115,5 @@ $blue  : #584BDD;
 
 ion-menu {
     --background: transparent !important;
-    // --border-radius: 0px 25px 0px 0px;
-   
+    
 }
