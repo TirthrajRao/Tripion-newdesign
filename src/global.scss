@@ -9,30 +9,30 @@
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
+
 /* Core CSS required for Ionic components to work properly */
+
 @import "~@ionic/angular/css/core.css";
 
 /* Basic CSS for apps built with Ionic */
+
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
 @import '~@ionic/angular/css/display.css';
 
 /* Optional CSS utils that can be commented out */
+
 @import "~@ionic/angular/css/padding.css";
 @import "~@ionic/angular/css/float-elements.css";
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600");
-
-
 // common css
 $purple: #AA55FF;
-$blue  : #584BDD;
-$green : #5ce67b;
-
+$blue: #584BDD;
+$green: #5ce67b;
 body,
 html,
 * {
@@ -51,14 +51,13 @@ p {
 
 ul {
     padding: 0;
-    margin : 0;
+    margin: 0;
 }
 
 // header css start here 
 ion-header ion-toolbar:first-child {
     --background: #AA55FF !important;
 }
-
 
 .header-md:after {
     background-image: unset;
@@ -69,27 +68,29 @@ ion-menu-button {
 }
 
 .middle_sec {
-    display        : flex;
+    display: flex;
     justify-content: space-around;
-
     ion-img {
-        height      : 22px;
-        width       : 22px;
-        float       : left;
-        margin-top  : 5px;
+        height: 22px;
+        width: 22px;
+        float: left;
+        margin-top: 5px;
         margin-right: 10px;
     }
-
     span {
+<<<<<<< HEAD
         font-size  : 22px;
+=======
+        font-size: 20px;
+>>>>>>> 50a99e9895610e93a8f378385656805034158e83
         font-weight: 600;
-            }
+    }
 }
 
 .back_icon {
     ion-img {
-        height    : 18px;
-        width     : 18px;
+        height: 18px;
+        width: 18px;
         margin-top: 4px;
     }
 }
