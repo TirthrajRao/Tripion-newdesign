@@ -1,0 +1,57 @@
+$purple: #AA55FF;
+$blue: #584BDD;
+$green: #2FE57C;
+
+// content css start here
+ion-content {
+    --background: linear-gradient(#AA55FF, #584BDD) !important;
+    &:after {
+        content: "";
+        background-image: url('../../assets/images/illustration.png');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        background-attachment: fixed;
+        padding-right: 100%;
+        padding-bottom: calc(100vh - 56px);
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+.benefits_content {
+    padding: 0px 10px;
+    z-index: 11;
+    position: relative;
+}
+
+.country_name {
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 18px;
+    img {
+        height: 50px;
+        width: 65px;
+    }
+    p {
+        color: #434A5E;
+        font-size: 6vw;
+        font-weight: 600;
+        line-height: 3;
+    }
+}
+
+.add_button {
+    a {
+        border-radius: 50%;
+        background-color: #FA4D88;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        padding: 16px;
+        img {
+            height: 28px;
+        }
+    }
+}

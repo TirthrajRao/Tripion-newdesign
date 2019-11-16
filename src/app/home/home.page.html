@@ -1,0 +1,56 @@
+<ion-menu side="start" menuId="first" contentId="content" class="menu">
+  <div class="bg_home">
+    <div class="main_background">
+      <div class="top_part">
+        <div class="row">
+          <div class="col-3 pl-4">
+            <div class="profile_img">
+              <ion-img src="../../assets/images/user.png"></ion-img>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="profile_detail text-white">
+              <p>Yash Doshi</p>
+              <div class="awrd_img">
+                <ion-img src="../../assets/images/award.png" class="float-left mr-1"></ion-img><span>150</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu_content">
+        <div class="menu_list text-white" routerLink='/home/home-page'>
+          <ion-img src="../../assets/images/1.png" class="float-left mr-3"></ion-img> Home
+        </div>
+        <div class="menu_list text-white">
+          <ion-img src="../../assets/images/2.png" class="float-left mr-3"></ion-img>  Inquiry
+        </div>
+        <div class="menu_list text-white" routerLink='/home/briefcase'>
+          <ion-img src="../../assets/images/3.png" class="float-left mr-3"></ion-img>  Breifcase
+        </div>
+        <div class="menu_list text-white">
+            <ion-img src="../../assets/images/4.png" class="float-left mr-3"></ion-img>  Amendments
+        </div>
+        <div class="menu_list text-white">
+            <ion-img src="../../assets/images/5.png" class="float-left mr-3"></ion-img>  Notifications
+        </div>
+        <div class="menu_list text-white">
+            <ion-img src="../../assets/images/6.png" class="float-left mr-3"></ion-img>  Past Trips
+        </div>
+        <div class="menu_list text-white" routerLink='/home/safe-travel'>
+            <ion-img src="../../assets/images/7.png" class="float-left mr-3"></ion-img> Safe to Travel
+        </div>
+        <div class="menu_list text-white">
+            <ion-img src="../../assets/images/8.png" class="float-left mr-3"></ion-img> Frequent Flyer
+        </div>
+        <div class="menu_list text-white" routerLink='/home/profile'>
+            <ion-img src="../../assets/images/9.png" class="float-left mr-3"></ion-img> Profile
+        </div>
+        <div class="menu_list text-white">
+            <ion-img src="../../assets/images/10.png" class="float-left mr-3"></ion-img> Log Out
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-menu>
+<ion-router-outlet main id="content"></ion-router-outlet>

@@ -1,0 +1,62 @@
+$purple: #AA55FF;
+$blue: #584BDD;
+$green: #2FE57C;
+ 
+// content css start here
+ion-content {
+    --background: linear-gradient(#AA55FF, #584BDD) !important;
+    &:after {
+        content: "";
+        background-image: url('../../assets/images/illustration.png');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        background-attachment: fixed;
+        padding-right: 100%;
+        padding-bottom: calc(100vh - 56px);
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+.all_content {
+    padding: 10px;
+    position: relative;
+    z-index: 11;
+}
+
+.doc_details {
+    margin-bottom: 25px;
+    .doc_img {
+        padding: 25px 5px;
+        ion-img {
+            height: 60px;
+        }
+        p {
+            text-align: center;
+            font-weight: 600;
+            margin-top: 18px;
+            line-height: 1;
+            font-size: 6vw;
+        }
+    }
+}
+
+.folder_detail {
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    ion-img {
+        width: 32px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+    p {
+        font-weight: 600;
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+}
