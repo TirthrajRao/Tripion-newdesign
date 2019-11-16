@@ -27,8 +27,9 @@ ion-content {
 
 .doc_details {
     margin-bottom: 25px;
+    cursor: pointer;
     .doc_img {
-        padding: 15px 5px;
+        padding: 25px 5px;
         ion-img {
             height: 60px;
         }
@@ -36,16 +37,18 @@ ion-content {
             text-align: center;
             font-weight: 600;
             margin-top: 18px;
-            line-height: 12px;
+            line-height: 1;
+            font-size: 6vw;
         }
     }
 }
 
 .folder_detail {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     display: inline-block;
     margin-bottom: 10px;
+    cursor: pointer;
     ion-img {
         width: 32px;
         float: left;
@@ -55,5 +58,6 @@ ion-content {
     p {
         font-weight: 600;
         padding-top: 5px;
+        font-size: 6vw;
     }
 }
