@@ -29,7 +29,7 @@ ion-content {
     cursor: pointer;
     margin-bottom: 25px;
     .doc_img {
-        padding: 25px 5px;
+        padding: 30px 5px;
         ion-img {
             height: 60px;
         }
@@ -48,16 +48,20 @@ ion-content {
     padding: 12px;
     display: inline-block;
     margin-bottom: 10px;
+    position: relative;
     cursor: pointer;
     ion-img {
         width: 32px;
         float: left;
-        margin-right: 10px;
-        margin-top: 3px;
+       position: absolute;
+        left: 13px;
+        top: 0;
+        bottom: 0;
     }
     p {
         font-weight: 600;
-        padding-top: 5px;
-        font-size: 6vw;
+       font-size: 6vw;
+    line-height: 1.9;
+    margin-left: 46px;
     }
 }
