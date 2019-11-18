@@ -5,6 +5,7 @@ $green: #5ce67b;
 .home_text {
     color: #fff;
     font-weight: 600;
+    font-size: 22px;
 }
 
 // header css end here 
@@ -19,14 +20,14 @@ ion-content {
         background-size: contain;
         background-attachment: fixed;
         padding-right: 100%;
-        padding-bottom: calc(100vh - 56px);
+        padding-bottom: calc(100vh - 76px);
         z-index: 1;
         position: absolute;
     }
 }
 
 .all_plan {
-    padding: 10px;
+    padding: 0px 10px;
     position: relative;
     z-index: 11;
     p {
@@ -35,7 +36,8 @@ ion-content {
         text-transform: uppercase;
     }
     .card {
-        padding: 14px;
+        cursor: pointer;
+        padding: 10px 14px;
         display: inline-block;
         margin-bottom: 5px;
         border-radius: 7px;
@@ -49,7 +51,7 @@ ion-content {
             ion-label {
                 vertical-align: middle;
                 font-weight: 600;
-                font-size: 6vw;
+                font-size: 17px;
             }
         }
         .plan_img {
@@ -70,15 +72,15 @@ ion-content {
     position: relative;
     p {
         font-weight: 500;
-        font-size: 6vw;
+        font-size: 16px;
     }
     button {
-        margin-top: 18px;
+        margin-top: 12px;
         width: 100%;
         font-weight: 500;
         padding: 14px;
         border-radius: 5px;
-        font-size: 5vw;
+        font-size: 16px;
         background-color: $green;
         outline: none;
     }

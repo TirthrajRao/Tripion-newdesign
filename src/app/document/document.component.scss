@@ -3,15 +3,19 @@ $blue: #584BDD;
 $green: #2FE57C;
 // header css start here 
 .upload_img {
+    background:linear-gradient(#AA55FF, #584BDD);
+    ion-img{
     height: 120px;
     width: 120px;
     margin: auto;
+    }
 }
 // header css end here 
 // content css start here
 ion-content {
-    --background: #707070;
+    --background: #fff;
     &:after {
+
         content: "";
         background-image: url('../../assets/images/illustration.png');
         background-repeat: no-repeat;
@@ -19,7 +23,7 @@ ion-content {
         background-size: contain;
         background-attachment: fixed;
         padding-right: 100%;
-        padding-bottom: calc(100vh - 56px);
+        padding-bottom: calc(100vh - 76px);
         z-index: 1;
         position: absolute;
     }
@@ -29,6 +33,9 @@ ion-content {
     position: relative;
     z-index: 11;
 }
+.back_color{
+    background-color: #707070;
+}
 
 .select_files {
     padding: 18px 30px 10px 30px;
@@ -37,10 +44,11 @@ ion-content {
     background-size: cover;
     background-attachment: fixed;
     height: auto;
+    
     button {
         background-color: $green;
         padding: 15px;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         width: 100%;
         border-radius: 5px;
@@ -80,7 +88,7 @@ ion-content {
     }
 }
 
-.card {
+
     .finish_button {
         padding: 30px;
        
@@ -88,7 +96,7 @@ ion-content {
             border-radius: 30px;
             padding: 15px;
             color: #ffffff;
-            font-size: 14px;
+            font-size: 16px;
             position: relative;
             width: 100%;
             font-weight: 500;
@@ -103,7 +111,6 @@ ion-content {
             }
         }
     }
-}
 
 .upload_file_progress {
     padding: 15px 15px 0px 15px;

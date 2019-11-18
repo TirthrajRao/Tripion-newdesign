@@ -17,9 +17,6 @@
         </div>
       </ion-col>
     </ion-row>
-    <div class="upload_img text-center">
-      <ion-img src="../../assets/images/Upload.png"></ion-img>
-    </div>
   </ion-toolbar>
 </ion-header>
 
@@ -27,16 +24,21 @@
 
 <ion-content>
   <div class="document_content">
-    <div class="select_files text-center">
-      <button class="tect-center text-white">
-        <ion-img src="../../assets/images/camera.png"></ion-img>Use Camera
-      </button>
-      <p class="text-center or_text">or</p>
-      <div class="choose_file">
-        <input type="file" id="file" name="files" value="files" style="display: none;">
-        <label class="upload_photo" for="file">
-          <ion-img src="../../assets/images/file.png"></ion-img>Select from Files
-        </label>
+    <div class="upload_img text-center">
+      <ion-img src="../../assets/images/Upload.png"></ion-img>
+    </div>
+    <div class="back_color">
+      <div class="select_files text-center">
+        <button class="tect-center text-white">
+          <ion-img src="../../assets/images/camera.png"></ion-img>Use Camera
+        </button>
+        <p class="text-center or_text">or</p>
+        <div class="choose_file">
+          <input type="file" id="file" name="files" value="files" style="display: none;">
+          <label class="upload_photo" for="file">
+            <ion-img src="../../assets/images/file.png"></ion-img>Select from Files
+          </label>
+        </div>
       </div>
     </div>
     <div class="card">
@@ -104,12 +106,12 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="finish_button">
         <button type="submit" routerLink='/home/document'>
           <ion-img src="../../assets/images/cloud.png"></ion-img>
           Finish
         </button>
       </div>
-    </div>
   </div>
 </ion-content>

@@ -14,14 +14,14 @@ ion-content {
         background-size      : contain;
         background-attachment: fixed;
         padding-right        : 100%;
-        padding-bottom       : calc(100vh - 56px);
+        padding-bottom       : calc(100vh - 76px);
         z-index              : 1;
         position             : absolute;
     }
 }
 
 .benefits_content {
-    padding : 10px;
+    padding : 0px 10px;
     z-index : 11;
     position: relative;
 }
@@ -46,31 +46,31 @@ ion-content {
     }
 
     .card_body {
-        padding: 18px;
+        padding: 15px;
 
         p {
             color      : #707070;
             font-weight: 600;
             line-height: 1.8;
             text-align : center;
-            margin-top : 25px;
-            font-size  : 5vw;
+            margin-top : 15px;
+            font-size  : 15px;
         }
 
         h3 {
             color    : #434A5E;
-            font-size: 7vw;
+            font-size: 20px;
         }
     }
 
     .card_footer {
-        padding: 10px 15px 30px 15px;
+        padding: 0px 15px 22px 15px;
 
         button {
             border-radius: 30px;
             padding      : 15px;
             color        : #ffffff;
-            font-size    : 5vw;
+            font-size    : 16px;
             position     : relative;
             width        : 100%;
             font-weight  : 500;

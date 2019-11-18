@@ -13,7 +13,7 @@ ion-content {
         background-size: contain;
         background-attachment: fixed;
         padding-right: 100%;
-        padding-bottom: calc(100vh - 56px);
+        padding-bottom: calc(100vh - 76px);
         z-index: 1;
         position: absolute;
     }
@@ -39,17 +39,17 @@ ion-content {
             color: #434A5E;
     font-weight: 600;
     line-height: 2;
-    font-size: 6vw;
+    font-size: 18px;
         }
     }
     .card_body {
-        padding: 15px 20px 40px 20px;
+        padding: 15px 15px 25px 15px;
         p {
             color: #707070;
             font-weight: 600;
             line-height: 26px;
             text-align: center;
-            font-size: 5vw;
+            font-size: 15px;
         }
     }
 }
